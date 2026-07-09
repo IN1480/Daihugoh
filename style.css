@@ -47,23 +47,26 @@ body{
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%);/* 自身の大きさの半分だけ左に；中央に置くため */
 
     font-size: 2rem;/* ボタンの文字サイズ */
     padding: 20px 60px;/* 文字から外枠までの余白 */
     border: none;/* 枠の黒線除去 */
     border-radius: 15px;/* 枠の角を丸く */
-    background-color: #0f6512;/* ボタンの色 */
+    background: linear-gradient(#1ac20e, #136808);/* グラデーション；立体感 */
+    box-shadow: 0 6px 0 #0a3803;/* 影；立体感 */
+    
     color: white;/* ボタンの文字色 */
     cursor: pointer;/* ボタンに置いたときのカーソルの形 */
-    transition: 0.2s;/* 画面遷移の猶予 */
+    transition: 0.4s;/* 画面遷移の猶予 */
 }
 #start-button:hover{
     background-color: #45a049;/* ボタンにカーソルを置いたときのボタンの色 */
 }
 
 #start-button:active{
-    transform: scale(0.96);/* ホバー時のボタンの縮み */
+    transform: translateX(-50%) scale(0.98) translateY(4px);/* ホバー時のボタンの縮み */
+    box-shadow: 0 2px 0 #0056b3;/* 影を小さく */
 }
 
 /* ===== カード ===== */
