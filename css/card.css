@@ -18,6 +18,7 @@
 @media (max-width: 600px) {
     .card {
         width: clamp(30px, 7vw, 60px);
+        font-size: 2vw;
     }
 }
 
