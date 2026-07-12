@@ -120,7 +120,7 @@
     color: rgb(224, 231, 9);/* ボタンの文字色 */
     font-size: clamp(0.7rem, 1.4vw, 0.8rem);/* ボタンの文字サイズ */
 }
-#play-button:active{
+#pass-button:active{
     transform: scale(0.99) translateY(4px);/* ホバー時のボタンの縮み */
 }
 
