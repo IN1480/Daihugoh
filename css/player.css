@@ -25,9 +25,9 @@
 }
 
 .player-name{
-    font-size: clamp(5px, 1.5vw, 15px);
+    font-size: clamp(7.5px, 1.5vw, 15px);
 }
 
 .card-count{
-    font-size: clamp(5px, 1.5vw, 15px);
+    font-size: clamp(7.5px, 1.5vw, 15px);
 }
